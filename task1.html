@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 <head>
   <!-- Тег meta для указания кодировки -->
@@ -13,11 +13,11 @@
   <div id="string-5">Тырят в вёдра ядра кедров!</div>
   <div id="string-6">Вытру выдрой ядра кедров</div>
   <script>
-    let divs = document.getElementsByTagName('div');
-    for (let i=0; i<divs.length; i++)
-    {
-      console.log(divs[i].innerText);
-    }
+    	let ids = [3,5,2,6,4,1];
+	for (let i = 0; i<ids.length;i++)
+	{
+  		console.log(document.getElementById("string-"+ids[i]).innerText);
+	}
   </script>
 </body>
 
